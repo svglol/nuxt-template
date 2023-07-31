@@ -19,10 +19,9 @@
   },
   "lint-staged": {
     "*.{js,ts,mjs,vue}": [
-      "eslint",
-      "prettier --write"
+      "eslint --fix"
     ],
-    "*.{css,vue}": "stylelint"
+    "*.{css,vue}": "stylelint --fix"
   },
   "dependencies": {
     "nuxt": "3.6.5"
