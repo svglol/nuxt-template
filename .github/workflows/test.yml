@@ -2,7 +2,7 @@ name: test
 
 on:
   push:
-    branches: ['main', 'master', 'renovate/**']
+    branches: ['master']
   pull_request:
     types: [opened, synchronize]
 
