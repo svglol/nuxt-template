@@ -2,11 +2,9 @@ name: test
 
 on:
   push:
-    branches:
-      - master
+    branches: ['main', 'master', 'renovate/**']
   pull_request:
-    branches:
-      - master
+    types: [opened, synchronize]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
