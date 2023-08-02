@@ -58,6 +58,9 @@ devDependencies:
   nuxt-vitest:
     specifier: 0.10.2
     version: 0.10.2(@vitejs/plugin-vue-jsx@3.0.1)(@vitejs/plugin-vue@4.2.3)(happy-dom@10.5.2)(vite@4.4.7)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4)
+  playwright:
+    specifier: ^1.36.2
+    version: 1.36.2
   playwright-core:
     specifier: ^1.36.2
     version: 1.36.2
@@ -84,7 +87,7 @@ devDependencies:
     version: 34.0.0(stylelint@15.10.2)
   vitest:
     specifier: 0.33.0
-    version: 0.33.0(happy-dom@10.5.2)
+    version: 0.33.0(happy-dom@10.5.2)(playwright@1.36.2)
 
 packages:
 
@@ -1373,7 +1376,7 @@ packages:
       pathe: 1.1.1
       playwright-core: 1.36.2
       ufo: 1.2.0
-      vitest: 0.33.0(happy-dom@10.5.2)
+      vitest: 0.33.0(happy-dom@10.5.2)(playwright@1.36.2)
       vue: 3.3.4
     transitivePeerDependencies:
       - rollup
@@ -2131,7 +2134,7 @@ packages:
       pathe: 1.1.1
       picocolors: 1.0.0
       sirv: 2.0.3
-      vitest: 0.33.0(happy-dom@10.5.2)
+      vitest: 0.33.0(happy-dom@10.5.2)(playwright@1.36.2)
     dev: true
 
   /@vitest/utils@0.33.0:
@@ -5671,7 +5674,7 @@ packages:
       perfect-debounce: 1.0.0
       std-env: 3.3.3
       vite: 4.4.7(@types/node@18.17.1)
-      vitest: 0.33.0(happy-dom@10.5.2)
+      vitest: 0.33.0(happy-dom@10.5.2)(playwright@1.36.2)
       vitest-environment-nuxt: 0.10.2(happy-dom@10.5.2)(vitest@0.33.0)(vue-router@4.2.4)(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/server-renderer'
@@ -6073,6 +6076,15 @@ packages:
     resolution: {integrity: sha512-sQYZt31dwkqxOrP7xy2ggDfEzUxM1lodjhsQ3NMMv5uGTRDsLxU0e4xf4wwMkF2gplIxf17QMBCodSFgm6bFVQ==}
     engines: {node: '>=16'}
     hasBin: true
+    dev: true
+
+  /playwright@1.36.2:
+    resolution: {integrity: sha512-4Fmlq3KWsl85Bl4InJw1NC21aeQV0iSZuFvTDcy1F8zVmXmgQRe89GxF8zMSRt/KIS+2tUolak7EXVl9aC+JdA==}
+    engines: {node: '>=16'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      playwright-core: 1.36.2
     dev: true
 
   /postcss-calc@9.0.1(postcss@8.4.27):
@@ -7959,7 +7971,7 @@ packages:
       magic-string: 0.30.2
       ofetch: 1.1.1
       unenv: 1.5.2
-      vitest: 0.33.0(happy-dom@10.5.2)
+      vitest: 0.33.0(happy-dom@10.5.2)(playwright@1.36.2)
       vue: 3.3.4
       vue-router: 4.2.4(vue@3.3.4)
       whatwg-fetch: 3.6.17
@@ -7969,7 +7981,7 @@ packages:
       - supports-color
     dev: true
 
-  /vitest@0.33.0(happy-dom@10.5.2):
+  /vitest@0.33.0(happy-dom@10.5.2)(playwright@1.36.2):
     resolution: {integrity: sha512-1CxaugJ50xskkQ0e969R/hW47za4YXDUfWJDxip1hwbnhUjYolpfUn2AMOulqG/Dtd9WYAtkHmM/m3yKVrEejQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -8018,6 +8030,7 @@ packages:
       magic-string: 0.30.2
       pathe: 1.1.1
       picocolors: 1.0.0
+      playwright: 1.36.2
       std-env: 3.3.3
       strip-literal: 1.0.1
       tinybench: 2.5.0
