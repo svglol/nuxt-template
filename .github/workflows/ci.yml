@@ -1,4 +1,4 @@
-name: test
+name: ci
 
 on:
   push:
@@ -12,15 +12,36 @@ concurrency:
 
 jobs:
   build:
-    name: Build/Test/Lint
+    name: Lint
     timeout-minutes: 15
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out code
         uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2.4.0
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
         with:
-          fetch-depth: 2
+          node-version: 18
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+  test:
+    name: Test
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
 
       - uses: pnpm/action-setup@v2.4.0
 
@@ -35,9 +56,6 @@ jobs:
 
       - name: Build
         run: pnpm build
-
-      - name: Lint
-        run: pnpm lint
 
       - name: Test
         run: pnpm test
