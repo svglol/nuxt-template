@@ -27,7 +27,7 @@
     "nuxt": "3.6.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.0",
+    "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
     "@nuxt/devtools": "0.7.6",
     "@nuxt/eslint-config": "0.1.1",
