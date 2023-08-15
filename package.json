@@ -45,7 +45,7 @@
     "nuxt-vitest": "0.10.2",
     "@playwright/test": "1.37.0",
     "postcss-html": "1.5.0",
-    "prettier": "3.0.1",
+    "prettier": "3.0.2",
     "simple-git-hooks": "2.9.0",
     "stylelint": "15.10.2",
     "stylelint-config-prettier": "9.0.5",
