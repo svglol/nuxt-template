@@ -40,7 +40,7 @@
     "eslint-plugin-nuxt": "4.0.0",
     "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-vue": "9.17.0",
-    "happy-dom": "10.5.2",
+    "happy-dom": "12.1.5",
     "lint-staged": "14.0.1",
     "nuxt-vitest": "0.10.5",
     "@playwright/test": "1.38.1",
