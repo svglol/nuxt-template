@@ -32,7 +32,7 @@
     "@nuxt/devtools": "0.8.5",
     "@nuxt/eslint-config": "0.2.0",
     "@nuxt/test-utils": "3.7.4",
-    "@types/node": "18.18.3",
+    "@types/node": "18.18.4",
     "@typescript-eslint/eslint-plugin": "6.7.4",
     "@typescript-eslint/parser": "6.7.4",
     "eslint": "8.51.0",
