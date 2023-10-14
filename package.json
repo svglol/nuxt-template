@@ -27,8 +27,8 @@
     "nuxt": "3.7.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.2",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0",
     "@nuxt/devtools": "0.8.5",
     "@nuxt/eslint-config": "0.2.0",
     "@nuxt/test-utils": "3.7.4",
