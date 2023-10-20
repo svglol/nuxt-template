@@ -4,7 +4,7 @@ import { mountSuspended } from 'nuxt-vitest/utils'
 
 describe('app config', () => {
   it('is empty', () => {
-    expect(useAppConfig()).toEqual({ nuxt: {} })
+    expect(useAppConfig()).toEqual({ nuxt: { buildId: 'test' } })
   })
 })
 
