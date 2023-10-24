@@ -50,8 +50,8 @@ devDependencies:
     specifier: 5.0.1
     version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@8.52.0)(prettier@3.0.3)
   eslint-plugin-vue:
-    specifier: 9.17.0
-    version: 9.17.0(eslint@8.52.0)
+    specifier: 9.18.0
+    version: 9.18.0(eslint@8.52.0)
   happy-dom:
     specifier: 12.1.5
     version: 12.1.5
@@ -1407,7 +1407,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 6.9.0(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)(typescript@5.2.2)
       '@typescript-eslint/parser': 6.9.0(eslint@8.52.0)(typescript@5.2.2)
       eslint: 8.52.0
-      eslint-plugin-vue: 9.17.0(eslint@8.52.0)
+      eslint-plugin-vue: 9.18.0(eslint@8.52.0)
       typescript: 5.2.2
     transitivePeerDependencies:
       - supports-color
@@ -3586,7 +3586,7 @@ packages:
   /eslint-plugin-nuxt@4.0.0(eslint@8.52.0):
     resolution: {integrity: sha512-v3Vwdk8YKe52bAz8eSIDqQuTtfL/T1r9dSl1uhC5SyR5pgLxgKkQdxXVf/Bf6Ax7uyd9rHqiAuYVdqqDb7ILdA==}
     dependencies:
-      eslint-plugin-vue: 9.17.0(eslint@8.52.0)
+      eslint-plugin-vue: 9.18.0(eslint@8.52.0)
       semver: 7.5.4
       vue-eslint-parser: 9.3.2(eslint@8.52.0)
     transitivePeerDependencies:
@@ -3615,8 +3615,8 @@ packages:
       synckit: 0.8.5
     dev: true
 
-  /eslint-plugin-vue@9.17.0(eslint@8.52.0):
-    resolution: {integrity: sha512-r7Bp79pxQk9I5XDP0k2dpUC7Ots3OSWgvGZNu3BxmKK6Zg7NgVtcOB6OCna5Kb9oQwJPl5hq183WD0SY5tZtIQ==}
+  /eslint-plugin-vue@9.18.0(eslint@8.52.0):
+    resolution: {integrity: sha512-yUM8a2OD/7Qs0PiugkRaxgz5KBRvzMvWShity2UvVFAN0yk8029mGpTdg/TNARPiYzp335mEwDHwcAR8tQNe4g==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
