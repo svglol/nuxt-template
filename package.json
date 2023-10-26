@@ -27,7 +27,7 @@
     "nuxt": "3.8.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.1.0",
+    "@commitlint/cli": "18.2.0",
     "@commitlint/config-conventional": "18.1.0",
     "@nuxt/devtools": "1.0.0",
     "@nuxt/eslint-config": "0.2.0",
