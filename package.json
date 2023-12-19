@@ -31,19 +31,19 @@
     "@commitlint/config-conventional": "18.4.3",
     "@nuxt/devtools": "1.0.6",
     "@nuxt/eslint-config": "0.2.0",
-    "@nuxt/test-utils": "3.8.1",
+    "@nuxt/test-utils": "3.9.0",
     "@types/node": "20.10.5",
     "@typescript-eslint/eslint-plugin": "6.15.0",
     "@typescript-eslint/parser": "6.15.0",
+    "@vue/test-utils": "^2.4.3",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-nuxt": "4.0.0",
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-vue": "9.19.2",
-    "happy-dom": "12.1.5",
+    "happy-dom": "^12.10.3",
     "lint-staged": "15.2.0",
-    "nuxt-vitest": "0.11.5",
-    "@playwright/test": "1.40.1",
+    "playwright-core": "^1.40.1",
     "postcss-html": "1.5.0",
     "prettier": "3.1.1",
     "simple-git-hooks": "2.9.0",
@@ -51,7 +51,7 @@
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-recommended-vue": "1.5.0",
     "stylelint-config-standard": "34.0.0",
-    "vitest": "0.33.0"
+    "vitest": "^1.1.0"
   },
   "packageManager": "pnpm@8.12.1"
 }
