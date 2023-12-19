@@ -30,7 +30,7 @@ devDependencies:
     specifier: 6.15.0
     version: 6.15.0(eslint@8.56.0)(typescript@5.3.3)
   '@vue/test-utils':
-    specifier: ^2.4.3
+    specifier: 2.4.3
     version: 2.4.3(vue@3.3.13)
   eslint:
     specifier: 8.56.0
@@ -57,7 +57,7 @@ devDependencies:
     specifier: 3.8.2
     version: 3.8.2(@types/node@20.10.5)(eslint@8.56.0)(stylelint@16.0.2)(typescript@5.3.3)(vite@5.0.10)
   playwright-core:
-    specifier: ^1.40.1
+    specifier: 1.40.1
     version: 1.40.1
   postcss-html:
     specifier: 1.5.0
