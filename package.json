@@ -24,8 +24,8 @@
     "*.{css,vue}": "stylelint --fix"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.3",
-    "@commitlint/config-conventional": "18.4.3",
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
     "@nuxt/devtools": "1.0.6",
     "@nuxt/eslint-config": "0.2.0",
     "@nuxt/test-utils": "3.9.0",
