@@ -43,7 +43,7 @@
     "nuxt": "3.9.0",
     "playwright-core": "1.41.0",
     "postcss-html": "1.6.0",
-    "prettier": "3.2.3",
+    "prettier": "3.2.4",
     "simple-git-hooks": "2.9.0",
     "stylelint": "16.1.0",
     "stylelint-config-prettier": "9.0.5",
