@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['@nuxt/eslint-config', 'prettier', 'plugin:prettier/recommended'],
+  extends: [
+    '@nuxt/eslint-config',
+    '@nuxtjs/eslint-config-typescript',
+    'prettier',
+    'plugin:prettier/recommended',
+  ],
   plugins: ['prettier'],
   rules: {},
 }

@@ -1,6 +1,6 @@
-import app from '~/app.vue'
 import { describe, it, expect } from 'vitest'
 import { mountSuspended } from '@nuxt/test-utils/runtime'
+import app from '~/app.vue'
 
 describe('app config', () => {
   it('is empty', () => {
