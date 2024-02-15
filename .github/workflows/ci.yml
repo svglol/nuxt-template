@@ -2,7 +2,7 @@ name: ci
 
 on:
   push:
-    branches: ['master']
+    branches: ['main', 'master', 'renovate/**']
   pull_request:
     types: [opened, synchronize]
 
