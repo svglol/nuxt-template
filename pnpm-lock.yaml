@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: 19.0.2
-    version: 19.0.2(@types/node@20.11.21)(typescript@5.3.3)
+    specifier: 19.0.3
+    version: 19.0.3(@types/node@20.11.21)(typescript@5.3.3)
   '@commitlint/config-conventional':
-    specifier: 19.0.0
-    version: 19.0.0
+    specifier: 19.0.3
+    version: 19.0.3
   '@nuxt/devtools':
     specifier: 1.0.8
     version: 1.0.8(nuxt@3.10.3)(vite@5.1.4)
@@ -490,8 +490,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@commitlint/cli@19.0.2(@types/node@20.11.21)(typescript@5.3.3):
-    resolution: {integrity: sha512-oaFHcjOASFFdtei/EF0lPg9ubnqVJsAjEmiDPeBQqk8wO7qppO7vp595SP7vOjTyDJlPVc2jUxCJSKxdq5temQ==}
+  /@commitlint/cli@19.0.3(@types/node@20.11.21)(typescript@5.3.3):
+    resolution: {integrity: sha512-mGhh/aYPib4Vy4h+AGRloMY+CqkmtdeKPV9poMcZeImF5e3knQ5VYaSeAM0mEzps1dbKsHvABwaDpafLUuM96g==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
@@ -507,8 +507,8 @@ packages:
       - typescript
     dev: true
 
-  /@commitlint/config-conventional@19.0.0:
-    resolution: {integrity: sha512-d8lPm+slPUdA8Zof2Y36RqAm/MmAYx/QQIEd2gKbpfLThQK1oYLs+0C3sMPD+4LIq2kh4cnbV9WnPA0P5sN8Ig==}
+  /@commitlint/config-conventional@19.0.3:
+    resolution: {integrity: sha512-vh0L8XeLaEzTe8VCxSd0gAFvfTK0RFolrzw4o431bIuWJfi/yRCHJlsDwus7wW2eJaFFDR0VFXJyjGyDQhi4vA==}
     engines: {node: '>=v18'}
     dependencies:
       '@commitlint/types': 19.0.3
