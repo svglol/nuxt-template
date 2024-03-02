@@ -35,6 +35,7 @@
     "@types/node": "20.11.20",
     "@typescript-eslint/eslint-plugin": "7.0.2",
     "@typescript-eslint/parser": "7.0.2",
+    "@vue-macros/nuxt": "^1.9.21",
     "@vue/test-utils": "2.4.4",
     "@vueuse/core": "^10.9.0",
     "@vueuse/nuxt": "^10.9.0",

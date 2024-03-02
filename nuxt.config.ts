@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/ui',
     '@vueuse/nuxt',
+    '@vue-macros/nuxt',
   ],
   devtools: { enabled: true },
   tailwindcss: {
