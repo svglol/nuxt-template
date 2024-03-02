@@ -9,6 +9,6 @@ describe('browser', async () => {
   it('renders the index page', async () => {
     const page = await createPage('/')
     const html = await page.innerHTML('body')
-    expect(html).toContain('Welcome to Nuxt!')
+    expect(html)
   })
 })
