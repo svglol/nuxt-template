@@ -47,7 +47,7 @@
     "happy-dom": "13.6.2",
     "lint-staged": "15.2.2",
     "nuxt": "3.10.3",
-    "playwright-core": "1.42.0",
+    "playwright-core": "1.42.1",
     "postcss-html": "1.6.0",
     "prettier": "3.2.5",
     "simple-git-hooks": "2.9.0",
