@@ -56,5 +56,5 @@
     "stylelint-config-standard": "36.0.0",
     "vitest": "1.4.0"
   },
-  "packageManager": "pnpm@8.15.4"
+  "packageManager": "pnpm@8.15.5"
 }
