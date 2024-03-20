@@ -22,7 +22,7 @@ devDependencies:
     version: 0.3.0(nuxt@3.11.0)(vite@5.1.6)
   '@nuxt/test-utils':
     specifier: 3.12.0
-    version: 3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.8.6)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
+    version: 3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.9.0)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
   '@nuxt/ui':
     specifier: 2.14.2
     version: 2.14.2(nuxt@3.11.0)(vite@5.1.6)(vue@3.4.21)
@@ -66,8 +66,8 @@ devDependencies:
     specifier: 9.23.0
     version: 9.23.0(eslint@8.57.0)
   happy-dom:
-    specifier: 13.8.6
-    version: 13.8.6
+    specifier: 13.9.0
+    version: 13.9.0
   lint-staged:
     specifier: 15.2.2
     version: 15.2.2
@@ -97,7 +97,7 @@ devDependencies:
     version: 36.0.0(stylelint@16.2.1)
   vitest:
     specifier: 1.4.0
-    version: 1.4.0(@types/node@20.11.28)(happy-dom@13.8.6)
+    version: 1.4.0(@types/node@20.11.28)(happy-dom@13.9.0)
 
 packages:
 
@@ -1710,7 +1710,7 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/test-utils@3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.8.6)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
+  /@nuxt/test-utils@3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.9.0)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
     resolution: {integrity: sha512-Q3HP53TDIYeqHT65r31HZhK/gRwVBmchSdVj1tfiYECyqstckvsQ4Cyt/GX/XmD7cLdD3d5aHow8LaMfP+BSqQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
     peerDependencies:
@@ -1762,7 +1762,7 @@ packages:
       fake-indexeddb: 5.0.2
       get-port-please: 3.1.2
       h3: 1.11.1
-      happy-dom: 13.8.6
+      happy-dom: 13.9.0
       local-pkg: 0.5.0
       magic-string: 0.30.8
       node-fetch-native: 1.6.2
@@ -1777,8 +1777,8 @@ packages:
       unenv: 1.9.0
       unplugin: 1.10.0
       vite: 5.1.6(@types/node@20.11.28)
-      vitest: 1.4.0(@types/node@20.11.28)(happy-dom@13.8.6)
-      vitest-environment-nuxt: 1.0.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.8.6)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
+      vitest: 1.4.0(@types/node@20.11.28)(happy-dom@13.9.0)
+      vitest-environment-nuxt: 1.0.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.9.0)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
       vue: 3.4.21(typescript@5.4.2)
       vue-router: 4.3.0(vue@3.4.21)
     transitivePeerDependencies:
@@ -6355,8 +6355,8 @@ packages:
       - uWebSockets.js
     dev: true
 
-  /happy-dom@13.8.6:
-    resolution: {integrity: sha512-Urcv2jvNel19QirWimOwYTW3slpEYGS8PLtzEwAlpTWpnKycXF8s0I7xUBK9fPvWAIc8uZf/CnV2cIwWE8jptw==}
+  /happy-dom@13.9.0:
+    resolution: {integrity: sha512-hMzsFn2x+B61TF7wsJ3La/exaxW9AWZePlNGzAkMvoVYXI3pMqPSGTT1qXTwcsVLB+44TM8KjHuoQLLx4EX9Vg==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -10934,10 +10934,10 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest-environment-nuxt@1.0.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.8.6)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
+  /vitest-environment-nuxt@1.0.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.9.0)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21):
     resolution: {integrity: sha512-AWMO9h4HdbaFdPWZw34gALFI8gbBiOpvfbyeZwHIPfh4kWg/TwElYHvYMQ61WPUlCGaS5LebfHkaI0WPyb//Iw==}
     dependencies:
-      '@nuxt/test-utils': 3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.8.6)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
+      '@nuxt/test-utils': 3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@13.9.0)(playwright-core@1.42.1)(vite@5.1.6)(vitest@1.4.0)(vue-router@4.3.0)(vue@3.4.21)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
@@ -10957,7 +10957,7 @@ packages:
       - vue-router
     dev: true
 
-  /vitest@1.4.0(@types/node@20.11.28)(happy-dom@13.8.6):
+  /vitest@1.4.0(@types/node@20.11.28)(happy-dom@13.9.0):
     resolution: {integrity: sha512-gujzn0g7fmwf83/WzrDTnncZt2UiXP41mHuFYFrdwaLRVQ6JYQEiME2IfEjU3vcFL3VKa75XhI3lFgn+hfVsQw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -10992,7 +10992,7 @@ packages:
       chai: 4.4.1
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 13.8.6
+      happy-dom: 13.9.0
       local-pkg: 0.5.0
       magic-string: 0.30.8
       pathe: 1.1.2
