@@ -46,7 +46,7 @@
     "eslint-plugin-vue": "9.23.0",
     "happy-dom": "13.8.6",
     "lint-staged": "15.2.2",
-    "nuxt": "3.10.3",
+    "nuxt": "3.11.0",
     "playwright-core": "1.42.1",
     "postcss-html": "1.6.0",
     "prettier": "3.2.5",
