@@ -30,8 +30,8 @@ devDependencies:
     specifier: 2.14.2
     version: 2.14.2(nuxt@3.11.1)(vite@5.2.6)(vue@3.4.21)
   '@vue-macros/nuxt':
-    specifier: 1.9.23
-    version: 1.9.23(@vue-macros/reactivity-transform@0.4.3)(@vueuse/core@10.9.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6)(vue-tsc@1.8.27)(vue@3.4.21)
+    specifier: 1.9.24
+    version: 1.9.24(@vue-macros/reactivity-transform@0.4.3)(@vueuse/core@10.9.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6)(vue-tsc@1.8.27)(vue@3.4.21)
   '@vue/test-utils':
     specifier: 2.4.5
     version: 2.4.5
@@ -3512,15 +3512,15 @@ packages:
       - vue
     dev: true
 
-  /@vue-macros/nuxt@1.9.23(@vue-macros/reactivity-transform@0.4.3)(@vueuse/core@10.9.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6)(vue-tsc@1.8.27)(vue@3.4.21):
-    resolution: {integrity: sha512-H3qr8vR7oVWY50gjfjlsuABjHELkoXgUTwbKZUebzZvIhAsVV/T2u5onn3QB2iSaEbCRhZWnhq21R94xp1293Q==}
+  /@vue-macros/nuxt@1.9.24(@vue-macros/reactivity-transform@0.4.3)(@vueuse/core@10.9.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6)(vue-tsc@1.8.27)(vue@3.4.21):
+    resolution: {integrity: sha512-UIMEztYuL6FEw5SlDgHjbagGpOo7LM5OeWkb0+eAIWbaiuz9Yjms1ZTYA3LsPYRSTEHoNU5D7aoDnoMIbcXFUw==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.11.1
       '@vue-macros/common': 1.10.1(vue@3.4.21)
-      '@vue-macros/volar': 0.18.13(@vue-macros/reactivity-transform@0.4.3)(typescript@5.4.3)(vue-tsc@1.8.27)(vue@3.4.21)
+      '@vue-macros/volar': 0.18.14(@vue-macros/reactivity-transform@0.4.3)(typescript@5.4.3)(vue-tsc@1.8.27)(vue@3.4.21)
       nuxt: 3.11.1(@types/node@20.11.21)(@unocss/reset@0.58.6)(eslint@8.57.0)(floating-vue@5.2.2)(stylelint@16.3.0)(typescript@5.4.3)(unocss@0.58.6)(vite@5.2.6)(vue-tsc@1.8.27)
       unplugin-vue-macros: 2.7.11(@vueuse/core@10.9.0)(typescript@5.4.3)(vite@5.2.6)(vue@3.4.21)
     transitivePeerDependencies:
@@ -3620,8 +3620,8 @@ packages:
       - vue
     dev: true
 
-  /@vue-macros/volar@0.18.13(@vue-macros/reactivity-transform@0.4.3)(typescript@5.4.3)(vue-tsc@1.8.27)(vue@3.4.21):
-    resolution: {integrity: sha512-E/gSRzXPbrTfK6n2K8BU5DoTO6RbyUfdLEP2z5kOGeM/o9N9YX5Vmamv+YGtkFETfKgl80C3VigriUOcdtGk7w==}
+  /@vue-macros/volar@0.18.14(@vue-macros/reactivity-transform@0.4.3)(typescript@5.4.3)(vue-tsc@1.8.27)(vue@3.4.21):
+    resolution: {integrity: sha512-Qw4yrX1LSUKodzQS5dUNHEJdBFTUFfue+ALJhty5qZAxoxhEuHyMqg/42r3Po1GxVQP+lAyop5VRYMm0a+6vRA==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue-tsc: ^1.6.0
