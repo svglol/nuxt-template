@@ -2,9 +2,11 @@
 
 A simple Nuxt 3 template with a few additions
 
-- Eslint & Prettier config
+- @nuxt/eslint & @antfu/eslint-config
 - Stylelint
 - Commitlint
-- Nuxt-vitest
+- Nuxt UI (Includes Tailwind, Nuxt Icon, & Color Mode)
+- E2E Testing and Unit Testing
+- VueUse and Vue Macros
 - Renovate config
 - Github workflow tests
