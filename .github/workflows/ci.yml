@@ -2,7 +2,7 @@ name: ci
 
 on:
   push:
-    branches: ['main', 'master', 'renovate/**']
+    branches: [main, master, 'renovate/**']
   pull_request:
     types: [opened, synchronize]
 
@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'pnpm'
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -49,10 +49,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'pnpm'
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Install playwright-core
+        run: pnpm dlx playwright-core install
 
       - name: Build
         run: pnpm build

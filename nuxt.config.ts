@@ -7,9 +7,19 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@vueuse/nuxt',
     '@vue-macros/nuxt',
+    '@nuxt/eslint',
   ],
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
   devtools: { enabled: true },
   tailwindcss: {
     cssPath: '~/assets/global.css',
+  },
+  typescript: {
+    typeCheck: true,
+    strict: true,
   },
 })

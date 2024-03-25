@@ -1,5 +1,5 @@
 import { createPage, setup } from '@nuxt/test-utils'
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 
 describe('browser', async () => {
   await setup({
