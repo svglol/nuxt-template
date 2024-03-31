@@ -18,8 +18,8 @@ devDependencies:
     specifier: 1.1.5
     version: 1.1.5(@unocss/reset@0.58.6)(floating-vue@5.2.2)(nuxt@3.11.1)(unocss@0.58.6)(vite@5.2.6)(vue@3.4.21)
   '@nuxt/eslint':
-    specifier: 0.3.0-beta.5
-    version: 0.3.0-beta.5(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6)
+    specifier: 0.3.0-beta.6
+    version: 0.3.0-beta.6(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6)
   '@nuxt/fonts':
     specifier: 0.5.1
     version: 0.5.1(nuxt@3.11.1)(vite@5.2.6)
@@ -1467,22 +1467,6 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-kit@1.1.4(nuxt@3.11.1)(vite@5.2.6):
-    resolution: {integrity: sha512-/aZW/vn09vJML3Bi6dP9m51EN8eyeqHbyCyeuGsPUy/2GIlziaNHTaFlNWmLLkezdS4bhEGSr38Z5sa6x8FchQ==}
-    peerDependencies:
-      nuxt: ^3.9.0
-      vite: '*'
-    dependencies:
-      '@nuxt/kit': 3.11.1
-      '@nuxt/schema': 3.11.1
-      execa: 7.2.0
-      nuxt: 3.11.1(@types/node@20.11.21)(@unocss/reset@0.58.6)(eslint@8.57.0)(floating-vue@5.2.2)(stylelint@16.3.1)(typescript@5.4.3)(unocss@0.58.6)(vite@5.2.6)(vue-tsc@1.8.27)
-      vite: 5.2.6(@types/node@20.11.21)
-    transitivePeerDependencies:
-      - rollup
-      - supports-color
-    dev: true
-
   /@nuxt/devtools-kit@1.1.5(nuxt@3.11.1)(vite@5.2.6):
     resolution: {integrity: sha512-Nb/NKFCRtxyqcPD6snB52rXtbRQMjGtn3ncpa8cLWsnoqnkd9emQ4uwV8IwCNxTnqUBtbGU79/TlJ79SKH9TAw==}
     peerDependencies:
@@ -1586,13 +1570,13 @@ packages:
       - vue
     dev: true
 
-  /@nuxt/eslint-config@0.3.0-beta.5(eslint@8.57.0)(typescript@5.4.3):
-    resolution: {integrity: sha512-KltOLR5AiQg/FRiR8HPs+MxqipwLZ2DH/MutJ5G+xe2GqRJ9NcKUSVdnD7NKPKI8pwvQY0ik9DV0VWuhXalLQA==}
+  /@nuxt/eslint-config@0.3.0-beta.6(eslint@8.57.0)(typescript@5.4.3):
+    resolution: {integrity: sha512-vQh2lp1YjdKm5oC498KcUluoUhimne0glHBifhLh/c2BVbSihkfzrranXe1MpsWHcCsiVIIVJkXezwwRq/89kQ==}
     peerDependencies:
       eslint: ^8.57.0
     dependencies:
       '@eslint/js': 8.57.0
-      '@nuxt/eslint-plugin': 0.3.0-beta.5(eslint@8.57.0)(typescript@5.4.3)
+      '@nuxt/eslint-plugin': 0.3.0-beta.6(eslint@8.57.0)(typescript@5.4.3)
       '@rushstack/eslint-patch': 1.10.1
       '@stylistic/eslint-plugin': 1.7.0(eslint@8.57.0)(typescript@5.4.3)
       '@typescript-eslint/eslint-plugin': 7.4.0(@typescript-eslint/parser@7.4.0)(eslint@8.57.0)(typescript@5.4.3)
@@ -1608,8 +1592,8 @@ packages:
       - typescript
     dev: true
 
-  /@nuxt/eslint-plugin@0.3.0-beta.5(eslint@8.57.0)(typescript@5.4.3):
-    resolution: {integrity: sha512-9myqEmRs/J/JNWQ/rY89hFREOHK8GW0p3tUZOCga6fuxSq9JFjua3IlOqfn2afsdSvFQh1McVXh/2RPJy3XVXg==}
+  /@nuxt/eslint-plugin@0.3.0-beta.6(eslint@8.57.0)(typescript@5.4.3):
+    resolution: {integrity: sha512-vSdYVJHiIVr8uA/wYhgYYB3Zy7vDW9u1TqEOV312yBG/WMYkjSOzLybo2iulTiNYCj2ZuIowkGf1lVKkTxupGg==}
     peerDependencies:
       eslint: ^8.57.0
     dependencies:
@@ -1621,8 +1605,8 @@ packages:
       - typescript
     dev: true
 
-  /@nuxt/eslint@0.3.0-beta.5(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6):
-    resolution: {integrity: sha512-5bF11BKSWiwKL3E0zTcTq60Iipm7dAhzTEDVAA4njOlEwGVn3IZCZ5KrMFfXfQuKvbTAZkDkNrIlwZZhutp1Xg==}
+  /@nuxt/eslint@0.3.0-beta.6(eslint@8.57.0)(nuxt@3.11.1)(typescript@5.4.3)(vite@5.2.6):
+    resolution: {integrity: sha512-Zhv/XWebVvTBKonMyTJtkQt2xSkK8+gg1/HedCYdtEIamQucPh2RV9ROAHiMoOGfw0bkvZlIE/JWj5BmWgrRmA==}
     peerDependencies:
       eslint: ^8.57.0
       eslint-webpack-plugin: ^4.1.0
@@ -1633,9 +1617,9 @@ packages:
       vite-plugin-eslint2:
         optional: true
     dependencies:
-      '@nuxt/devtools-kit': 1.1.4(nuxt@3.11.1)(vite@5.2.6)
-      '@nuxt/eslint-config': 0.3.0-beta.5(eslint@8.57.0)(typescript@5.4.3)
-      '@nuxt/eslint-plugin': 0.3.0-beta.5(eslint@8.57.0)(typescript@5.4.3)
+      '@nuxt/devtools-kit': 1.1.5(nuxt@3.11.1)(vite@5.2.6)
+      '@nuxt/eslint-config': 0.3.0-beta.6(eslint@8.57.0)(typescript@5.4.3)
+      '@nuxt/eslint-plugin': 0.3.0-beta.6(eslint@8.57.0)(typescript@5.4.3)
       '@nuxt/kit': 3.11.1
       chokidar: 3.6.0
       eslint: 8.57.0
@@ -8174,7 +8158,7 @@ packages:
     dependencies:
       '@iconify/collections': 1.0.407
       '@iconify/vue': 4.1.1(vue@3.4.21)
-      '@nuxt/devtools-kit': 1.1.4(nuxt@3.11.1)(vite@5.2.6)
+      '@nuxt/devtools-kit': 1.1.5(nuxt@3.11.1)(vite@5.2.6)
       '@nuxt/kit': 3.11.1
     transitivePeerDependencies:
       - nuxt
