@@ -27,8 +27,8 @@ devDependencies:
     specifier: 3.12.0
     version: 3.12.0(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@14.7.1)(playwright-core@1.43.0)(vite@5.2.8)(vitest@1.5.0)(vue-router@4.3.0)(vue@3.4.21)
   '@nuxt/ui':
-    specifier: 2.15.1
-    version: 2.15.1(nuxt@3.11.2)(vite@5.2.8)(vue@3.4.21)
+    specifier: 2.15.2
+    version: 2.15.2(nuxt@3.11.2)(vite@5.2.8)(vue@3.4.21)
   '@vue-macros/nuxt':
     specifier: 1.9.30
     version: 1.9.30(@vue-macros/reactivity-transform@0.4.4)(@vueuse/core@10.9.0)(esbuild@0.20.2)(nuxt@3.11.2)(typescript@5.4.5)(vite@5.2.8)(vue-tsc@1.8.27)(vue@3.4.21)
@@ -1867,8 +1867,8 @@ packages:
     resolution: {integrity: sha512-3BG5doAREcD50dbKyXgmjD4b1GzY8CUy3T41jMhHZXNDdaNwOd31IBq+D6dV00OSrDVhzrTVj0IxsUsnMyHvIQ==}
     dev: true
 
-  /@nuxt/ui@2.15.1(nuxt@3.11.2)(vite@5.2.8)(vue@3.4.21):
-    resolution: {integrity: sha512-wQXq7yYH5uAH9KE5wxA3KU/LniP5FhJ51tcgz6u+d+CDOXaKcDYQdzU9efSpTLNBuipbLQXDGiqq6aSeRIT6rw==}
+  /@nuxt/ui@2.15.2(nuxt@3.11.2)(vite@5.2.8)(vue@3.4.21):
+    resolution: {integrity: sha512-3NxFcC0KN4bdTePNKKEVp4tj2BgeuGlucnnOFLVYSdhw60xU0LpFq9wDGeP7BBUl622xF9FnPNiXW5/6RS4i6w==}
     engines: {node: '>=v16.20.2'}
     dependencies:
       '@egoist/tailwindcss-icons': 1.7.4(tailwindcss@3.4.3)
