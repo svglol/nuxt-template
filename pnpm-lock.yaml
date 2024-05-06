@@ -21,8 +21,8 @@ devDependencies:
     specifier: 0.3.10
     version: 0.3.10(eslint@8.57.0)(nuxt@3.11.2)(typescript@5.4.5)(vite@5.2.11)
   '@nuxt/fonts':
-    specifier: 0.6.1
-    version: 0.6.1(nuxt@3.11.2)(vite@5.2.11)
+    specifier: 0.7.0
+    version: 0.7.0(nuxt@3.11.2)(vite@5.2.11)
   '@nuxt/test-utils':
     specifier: 3.12.1
     version: 3.12.1(@vue/test-utils@2.4.5)(h3@1.11.1)(happy-dom@14.7.1)(playwright-core@1.43.1)(vite@5.2.11)(vitest@1.5.3)(vue-router@4.3.2)(vue@3.4.26)
@@ -1680,8 +1680,8 @@ packages:
       - vite
     dev: true
 
-  /@nuxt/fonts@0.6.1(nuxt@3.11.2)(vite@5.2.11):
-    resolution: {integrity: sha512-YeoXSHgRGoKYGLYu/gw7XDQ9mqyO+ihrCCwjxtH6Ke/2r5A9xI3frPzC5RVCgzZjxbd7W3EDAlyVwwEjCb9x+g==}
+  /@nuxt/fonts@0.7.0(nuxt@3.11.2)(vite@5.2.11):
+    resolution: {integrity: sha512-nng9m7IbdjPkKbNY26xygsuIeld3WjejGBmB4xN3lZDo8kKtThqzLn+M0enYQZBNGQShLaIAoFa+ccFF50qZRg==}
     dependencies:
       '@nuxt/devtools-kit': 1.2.0(nuxt@3.11.2)(vite@5.2.11)
       '@nuxt/kit': 3.11.2
