@@ -24,7 +24,7 @@
     "@nuxt/fonts": "0.7.0",
     "@nuxt/test-utils": "3.12.1",
     "@nuxt/ui": "2.16.0",
-    "@vue-macros/nuxt": "1.9.31",
+    "@vue-macros/nuxt": "1.9.32",
     "@vue/test-utils": "2.4.6",
     "@vueuse/core": "10.9.0",
     "@vueuse/nuxt": "10.9.0",
