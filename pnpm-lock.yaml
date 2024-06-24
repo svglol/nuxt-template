@@ -48,8 +48,8 @@ importers:
         specifier: 9.5.0
         version: 9.5.0
       eslint-plugin-tailwindcss:
-        specifier: 3.17.3
-        version: 3.17.3(tailwindcss@3.4.4)
+        specifier: 3.17.4
+        version: 3.17.4(tailwindcss@3.4.4)
       happy-dom:
         specifier: 14.12.3
         version: 14.12.3
@@ -75,8 +75,8 @@ importers:
         specifier: 1.5.0
         version: 1.5.0(postcss-html@1.7.0)(stylelint@16.6.1(typescript@5.4.5))
       stylelint-config-standard:
-        specifier: 36.0.0
-        version: 36.0.0(stylelint@16.6.1(typescript@5.4.5))
+        specifier: 36.0.1
+        version: 36.0.1(stylelint@16.6.1(typescript@5.4.5))
       vitest:
         specifier: 1.6.0
         version: 1.6.0(@types/node@20.14.2)(happy-dom@14.12.3)(terser@5.31.1)
@@ -2982,8 +2982,8 @@ packages:
     peerDependencies:
       eslint: '>=8.44.0'
 
-  eslint-plugin-tailwindcss@3.17.3:
-    resolution: {integrity: sha512-DVMVVUFQ+lPraRSuUk2I41XMnusXT6b3WaQZYlUHduULnERaqe9sNfmpRY1IyxlzmKoQxSbZ8IHRhl9ePo8PeA==}
+  eslint-plugin-tailwindcss@3.17.4:
+    resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
@@ -5239,8 +5239,14 @@ packages:
     peerDependencies:
       stylelint: ^16.0.0
 
-  stylelint-config-standard@36.0.0:
-    resolution: {integrity: sha512-3Kjyq4d62bYFp/Aq8PMKDwlgUyPU4nacXsjDLWJdNPRUgpuxALu1KnlAHIj36cdtxViVhXexZij65yM0uNIHug==}
+  stylelint-config-recommended@14.0.1:
+    resolution: {integrity: sha512-bLvc1WOz/14aPImu/cufKAZYfXs/A/owZfSMZ4N+16WGXLoX5lOir53M6odBxvhgmgdxCVnNySJmZKx73T93cg==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.1.0
+
+  stylelint-config-standard@36.0.1:
+    resolution: {integrity: sha512-8aX8mTzJ6cuO8mmD5yon61CWuIM4UD8Q5aBcWKGSf6kg+EC3uhB+iOywpTK4ca6ZL7B49en8yanOFtUW0qNzyw==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.1.0
@@ -9590,7 +9596,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-tailwindcss@3.17.3(tailwindcss@3.4.4):
+  eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.4):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.38
@@ -12161,10 +12167,14 @@ snapshots:
     dependencies:
       stylelint: 16.6.1(typescript@5.4.5)
 
-  stylelint-config-standard@36.0.0(stylelint@16.6.1(typescript@5.4.5)):
+  stylelint-config-recommended@14.0.1(stylelint@16.6.1(typescript@5.4.5)):
     dependencies:
       stylelint: 16.6.1(typescript@5.4.5)
-      stylelint-config-recommended: 14.0.0(stylelint@16.6.1(typescript@5.4.5))
+
+  stylelint-config-standard@36.0.1(stylelint@16.6.1(typescript@5.4.5)):
+    dependencies:
+      stylelint: 16.6.1(typescript@5.4.5)
+      stylelint-config-recommended: 14.0.1(stylelint@16.6.1(typescript@5.4.5))
 
   stylelint@16.6.1(typescript@5.4.5):
     dependencies:
