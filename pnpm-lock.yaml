@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@antfu/eslint-config':
-        specifier: 2.24.1
-        version: 2.24.1(@vue/compiler-sfc@3.4.37)(eslint@9.8.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@22.2.0)(happy-dom@14.12.3)(terser@5.31.5))
+        specifier: 2.25.0
+        version: 2.25.0(@vue/compiler-sfc@3.4.37)(eslint@9.8.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@22.2.0)(happy-dom@14.12.3)(terser@5.31.5))
       '@commitlint/cli':
         specifier: 19.4.0
         version: 19.4.0(@types/node@22.2.0)(typescript@5.5.4)
@@ -94,8 +94,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@antfu/eslint-config@2.24.1':
-    resolution: {integrity: sha512-vk2zqPO3HFHxhlIZbMxjo185qvMmCUUc6H58TrXHjMxnCCkw9SqBDWemV6uKUmPSphaOipjzoXYYSyeFYhGa1w==}
+  '@antfu/eslint-config@2.25.0':
+    resolution: {integrity: sha512-yugrgIgGBZvzvCkULTJwAFxGyv7YDDyGrEevMhQYvmTaT6MypxOPaj6wmacVuHXgfmEIO4YxvYWsQgfFuaVS1A==}
     hasBin: true
     peerDependencies:
       '@eslint-react/eslint-plugin': ^1.5.8
@@ -5681,7 +5681,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@2.24.1(@vue/compiler-sfc@3.4.37)(eslint@9.8.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@22.2.0)(happy-dom@14.12.3)(terser@5.31.5))':
+  '@antfu/eslint-config@2.25.0(@vue/compiler-sfc@3.4.37)(eslint@9.8.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@22.2.0)(happy-dom@14.12.3)(terser@5.31.5))':
     dependencies:
       '@antfu/install-pkg': 0.3.3
       '@clack/prompts': 0.7.0
