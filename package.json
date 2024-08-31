@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.27.3",
-    "@commitlint/cli": "19.4.0",
-    "@commitlint/config-conventional": "19.2.2",
+    "@commitlint/cli": "19.4.1",
+    "@commitlint/config-conventional": "19.4.1",
     "@nuxt/devtools": "1.4.1",
     "@nuxt/eslint": "0.5.3",
     "@nuxt/fonts": "0.7.2",
