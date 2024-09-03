@@ -26,7 +26,7 @@
     "@nuxt/ui": "2.18.4",
     "@vue-macros/nuxt": "1.11.6",
     "@vue/test-utils": "2.4.6",
-    "@vueuse/core": "10.11.1",
+    "@vueuse/core": "11.0.3",
     "@vueuse/nuxt": "10.11.1",
     "eslint": "9.9.1",
     "eslint-plugin-tailwindcss": "3.17.4",
