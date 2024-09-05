@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     '@vue-macros/nuxt',
     '@nuxt/eslint',
   ],
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2024-09-05',
   eslint: {
     config: {
       standalone: false,
