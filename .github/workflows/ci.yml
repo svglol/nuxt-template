@@ -55,7 +55,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Install playwright-core
-        run: pnpm dlx playwright-core install
+        run: pnpm exec playwright-core install
 
       - name: Build
         run: pnpm build
