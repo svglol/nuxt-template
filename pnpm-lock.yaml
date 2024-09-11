@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@antfu/eslint-config':
-        specifier: 3.3.2
-        version: 3.3.2(@typescript-eslint/utils@8.4.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.3)(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4)(vitest@2.0.5(@types/node@22.5.4)(happy-dom@15.7.3)(terser@5.31.6))
+        specifier: 3.4.1
+        version: 3.4.1(@typescript-eslint/utils@8.4.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.3)(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4)(vitest@2.0.5(@types/node@22.5.4)(happy-dom@15.7.3)(terser@5.31.6))
       '@commitlint/cli':
         specifier: 19.4.1
         version: 19.4.1(@types/node@22.5.4)(typescript@5.5.4)
@@ -94,15 +94,15 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@antfu/eslint-config@3.3.2':
-    resolution: {integrity: sha512-cHWbGP7CccmuUz/Aj6KORuLitkxuj2sONX+4PN+fvfJKTkVc2WXs9xlhO4AxhF1CU4Pn05M07OjDBXErqEmHzw==}
+  '@antfu/eslint-config@3.4.1':
+    resolution: {integrity: sha512-2tfeSToffqK1cD5kvT9ApncMH8J62l2MGHCrbSdQzjrvDwcBbfQQtaio2OaaAvSFxH8oyFjV3gDhRil9QzlvqA==}
     hasBin: true
     peerDependencies:
       '@eslint-react/eslint-plugin': ^1.5.8
       '@prettier/plugin-xml': ^3.4.1
       '@unocss/eslint-plugin': '>=0.50.0'
       astro-eslint-parser: ^1.0.2
-      eslint: ^9.5.0
+      eslint: ^9.10.0
       eslint-plugin-astro: ^1.2.0
       eslint-plugin-format: '>=0.1.0'
       eslint-plugin-react-hooks: ^4.6.0
@@ -2743,6 +2743,9 @@ packages:
 
   eslint-flat-config-utils@0.3.1:
     resolution: {integrity: sha512-eFT3EaoJN1hlN97xw4FIEX//h0TiFUobgl2l5uLkIwhVN9ahGq95Pbs+i1/B5UACA78LO3rco3JzuvxLdTUOPA==}
+
+  eslint-flat-config-utils@0.4.0:
+    resolution: {integrity: sha512-kfd5kQZC+BMO0YwTol6zxjKX1zAsk8JfSAopbKjKqmENTJcew+yBejuvccAg37cvOrN0Mh+DVbeyznuNWEjt4A==}
 
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -5606,7 +5609,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@3.3.2(@typescript-eslint/utils@8.4.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.3)(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4)(vitest@2.0.5(@types/node@22.5.4)(happy-dom@15.7.3)(terser@5.31.6))':
+  '@antfu/eslint-config@3.4.1(@typescript-eslint/utils@8.4.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.3)(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4)(vitest@2.0.5(@types/node@22.5.4)(happy-dom@15.7.3)(terser@5.31.6))':
     dependencies:
       '@antfu/install-pkg': 0.4.1
       '@clack/prompts': 0.7.0
@@ -5617,7 +5620,7 @@ snapshots:
       '@vitest/eslint-plugin': 1.1.0(@typescript-eslint/utils@8.4.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4)(vitest@2.0.5(@types/node@22.5.4)(happy-dom@15.7.3)(terser@5.31.6))
       eslint: 9.10.0(jiti@1.21.6)
       eslint-config-flat-gitignore: 0.3.0(eslint@9.10.0(jiti@1.21.6))
-      eslint-flat-config-utils: 0.3.1
+      eslint-flat-config-utils: 0.4.0
       eslint-merge-processors: 0.1.0(eslint@9.10.0(jiti@1.21.6))
       eslint-plugin-antfu: 2.5.0(eslint@9.10.0(jiti@1.21.6))
       eslint-plugin-command: 0.2.4(eslint@9.10.0(jiti@1.21.6))
@@ -8723,6 +8726,10 @@ snapshots:
   eslint-flat-config-utils@0.3.1:
     dependencies:
       '@types/eslint': 9.6.1
+      pathe: 1.1.2
+
+  eslint-flat-config-utils@0.4.0:
+    dependencies:
       pathe: 1.1.2
 
   eslint-import-resolver-node@0.3.9:
