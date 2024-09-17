@@ -30,7 +30,7 @@
     "@vueuse/nuxt": "11.0.3",
     "eslint": "9.10.0",
     "eslint-plugin-tailwindcss": "3.17.4",
-    "happy-dom": "15.7.3",
+    "happy-dom": "15.7.4",
     "lint-staged": "15.2.10",
     "nuxt": "3.13.1",
     "playwright-core": "1.47.1",
@@ -39,7 +39,7 @@
     "stylelint": "16.9.0",
     "stylelint-config-recommended-vue": "1.5.0",
     "stylelint-config-standard": "36.0.1",
-    "vitest": "2.0.5",
+    "vitest": "2.1.1",
     "vue-tsc": "2.1.6"
   },
   "simple-git-hooks": {
