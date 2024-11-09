@@ -32,7 +32,7 @@
     "eslint-plugin-tailwindcss": "3.17.5",
     "happy-dom": "15.10.2",
     "lint-staged": "15.2.10",
-    "nuxt": "3.14.0",
+    "nuxt": "3.14.159",
     "playwright-core": "1.48.2",
     "postcss-html": "1.7.0",
     "simple-git-hooks": "2.11.1",
