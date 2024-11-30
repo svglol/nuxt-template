@@ -16,7 +16,7 @@
     "typecheck": "nuxt typecheck"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "3.10.0",
+    "@antfu/eslint-config": "3.11.0",
     "@commitlint/cli": "19.6.0",
     "@commitlint/config-conventional": "19.6.0",
     "@nuxt/devtools": "1.6.1",
