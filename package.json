@@ -28,7 +28,7 @@
     "@vue/test-utils": "2.4.6",
     "@vueuse/core": "11.3.0",
     "@vueuse/nuxt": "11.3.0",
-    "eslint": "9.16.0",
+    "eslint": "9.17.0",
     "eslint-plugin-tailwindcss": "3.17.5",
     "happy-dom": "15.11.7",
     "lint-staged": "15.2.11",
