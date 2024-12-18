@@ -22,7 +22,7 @@
     "@nuxt/devtools": "1.6.4",
     "@nuxt/eslint": "0.7.3",
     "@nuxt/fonts": "0.10.3",
-    "@nuxt/test-utils": "3.14.4",
+    "@nuxt/test-utils": "3.15.1",
     "@nuxt/ui": "2.20.0",
     "@vue-macros/nuxt": "1.12.11",
     "@vue/test-utils": "2.4.6",
