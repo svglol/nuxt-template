@@ -30,8 +30,8 @@ importers:
         specifier: 3.17.2
         version: 3.17.2(@types/node@22.13.10)(@vue/test-utils@2.4.6)(happy-dom@17.4.0)(jiti@2.4.2)(magicast@0.3.5)(playwright-core@1.51.0)(terser@5.39.0)(typescript@5.8.2)(vitest@3.0.8(@types/debug@4.1.12)(@types/node@22.13.10)(happy-dom@17.4.0)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
       '@nuxt/ui':
-        specifier: 2.21.0
-        version: 2.21.0(change-case@5.4.4)(magicast@0.3.5)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
+        specifier: 2.21.1
+        version: 2.21.1(change-case@5.4.4)(magicast@0.3.5)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
       '@vue-macros/nuxt':
         specifier: 1.13.5
         version: 1.13.5(@vueuse/core@12.8.2(typescript@5.8.2))(esbuild@0.25.1)(magicast@0.3.5)(nuxt@3.16.0(@parcel/watcher@2.5.1)(@types/node@22.13.10)(db0@0.3.1)(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(meow@13.2.0)(optionator@0.9.4)(rollup@4.35.0)(stylelint@16.15.0(typescript@5.8.2))(terser@5.39.0)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue-tsc@2.2.8(typescript@5.8.2))(yaml@2.7.0))(rollup@4.35.0)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue-tsc@2.2.8(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))
@@ -1014,8 +1014,8 @@ packages:
       vitest:
         optional: true
 
-  '@nuxt/ui@2.21.0':
-    resolution: {integrity: sha512-kvQkB1/TyyUMvfQJTwQ2gubCyHCwyvwIQWWygEASXc8FfnzMtJZ+1ZYqNeWd9i7sr4+Lq2ye0+5t8M+raweYUw==}
+  '@nuxt/ui@2.21.1':
+    resolution: {integrity: sha512-Hoe2fSiR/B7E66VnBqqGD50MtjGJ/IiB/j3/BuC4xOgPtXFSUorB7qz5L2kRcbBCfZ0fNfmEjtpriTwSgEcuEg==}
 
   '@nuxt/vite-builder@3.16.0':
     resolution: {integrity: sha512-H/mRrDmpWWLIiF1J9jguCKITF0ydFxmgcBcbveQac6vVhaOZunBAv9SsKHZgnH8CDM1v5BnuRNyIQ9y4Y9wW8g==}
@@ -7041,7 +7041,7 @@ snapshots:
       - typescript
       - yaml
 
-  '@nuxt/ui@2.21.0(change-case@5.4.4)(magicast@0.3.5)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))':
+  '@nuxt/ui@2.21.1(change-case@5.4.4)(magicast@0.3.5)(typescript@5.8.2)(vite@6.2.1(@types/node@22.13.10)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       '@headlessui/tailwindcss': 0.2.2(tailwindcss@3.4.17)
       '@headlessui/vue': 1.7.23(vue@3.5.13(typescript@5.8.2))
@@ -7060,7 +7060,7 @@ snapshots:
       '@vueuse/math': 12.8.2(typescript@5.8.2)
       defu: 6.1.4
       fuse.js: 7.1.0
-      ohash: 1.1.6
+      ohash: 2.0.11
       pathe: 2.0.3
       scule: 1.3.0
       tailwind-merge: 2.6.0
