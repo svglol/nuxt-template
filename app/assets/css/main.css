@@ -1,0 +1,7 @@
+/* stylelint-disable import-notation */
+/* stylelint-disable value-keyword-case */
+/* stylelint-disable hue-degree-notation */
+/* stylelint-disable lightness-notation */
+/* stylelint-disable at-rule-no-unknown */
+@import "tailwindcss";
+@import "@nuxt/ui";

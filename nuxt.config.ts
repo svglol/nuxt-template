@@ -12,18 +12,21 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  compatibilityDate: '2024-09-05',
+  compatibilityDate: '2025-05-20',
   eslint: {
     config: {
       standalone: false,
     },
   },
   devtools: { enabled: true },
-  tailwindcss: {
-    cssPath: '~/assets/global.css',
-  },
   typescript: {
     typeCheck: true,
     strict: true,
   },
+  ui: {
+    theme: {
+      colors: ['primary', 'secondary', 'tertiary', 'info', 'success', 'warning', 'error'],
+    },
+  },
+  css: ['~/assets/css/main.css'],
 })
