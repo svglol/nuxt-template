@@ -31,7 +31,7 @@
     "eslint": "9.27.0",
     "happy-dom": "17.4.7",
     "lint-staged": "16.0.0",
-    "nuxt": "3.17.3",
+    "nuxt": "3.17.4",
     "playwright-core": "1.52.0",
     "postcss-html": "1.8.0",
     "simple-git-hooks": "2.13.0",
