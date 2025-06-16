@@ -29,6 +29,7 @@
     "@vueuse/core": "13.3.0",
     "@vueuse/nuxt": "13.3.0",
     "eslint": "9.28.0",
+    "eslint-plugin-better-tailwindcss": "3.2.0",
     "happy-dom": "17.6.3",
     "lint-staged": "16.1.0",
     "nuxt": "3.17.5",
