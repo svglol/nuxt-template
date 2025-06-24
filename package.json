@@ -30,7 +30,7 @@
     "@vueuse/nuxt": "13.4.0",
     "eslint": "9.29.0",
     "eslint-plugin-better-tailwindcss": "3.4.0",
-    "happy-dom": "17.6.3",
+    "happy-dom": "18.0.1",
     "lint-staged": "16.1.2",
     "nuxt": "3.17.5",
     "playwright-core": "1.53.1",
