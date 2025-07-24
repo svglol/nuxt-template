@@ -48,8 +48,8 @@ importers:
         specifier: 9.31.0
         version: 9.31.0(jiti@2.4.2)
       eslint-plugin-better-tailwindcss:
-        specifier: 3.6.3
-        version: 3.6.3(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11)
+        specifier: 3.7.0
+        version: 3.7.0(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11)
       happy-dom:
         specifier: 18.0.1
         version: 18.0.1
@@ -3506,8 +3506,8 @@ packages:
     peerDependencies:
       eslint: '*'
 
-  eslint-plugin-better-tailwindcss@3.6.3:
-    resolution: {integrity: sha512-Xe1BMDIgINeQb1Xf7NLZHvi1S8V+4TXCnjheardPQsz6do38OAlqRSm0Uiq+biYzxNVofbJCkWNndW/3twjSkA==}
+  eslint-plugin-better-tailwindcss@3.7.0:
+    resolution: {integrity: sha512-8xMy1h3v5X9m9r1E6bNc49WOYYcxk6ld+67UJOz9gFZ48BzG8KR430nrGkZbWNhbQTR5i0f2c3mtLgQbVXWZkA==}
     engines: {node: ^20.11.0 || >=21.2.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -5793,6 +5793,10 @@ packages:
     resolution: {integrity: sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==}
     engines: {node: '>=12'}
 
+  strip-bom@3.0.0:
+    resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
+    engines: {node: '>=4'}
+
   strip-final-newline@3.0.0:
     resolution: {integrity: sha512-dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw==}
     engines: {node: '>=12'}
@@ -6010,6 +6014,14 @@ packages:
 
   ts-macro@0.2.7:
     resolution: {integrity: sha512-rHZfWbnWT6rPYWPAFU4517G9kt8pKXjzaqjNfDFsI7sV8MLxx1RA66uyavplR6c9yEN6WjtD962kGNZOhKL4TA==}
+
+  tsconfig-paths-webpack-plugin@4.2.0:
+    resolution: {integrity: sha512-zbem3rfRS8BgeNK50Zz5SIQgXzLafiHjOwUAvk/38/o1jHn/V5QAgVUcz884or7WYcPaH3N2CIfUc2u0ul7UcA==}
+    engines: {node: '>=10.13.0'}
+
+  tsconfig-paths@4.2.0:
+    resolution: {integrity: sha512-NoZ4roiN7LnbKn9QqE1amc9DJfzvZXxF4xDavcOWt1BPkdx+m+0gJuPM+S0vCe7zTJMYUP0R8pO2XMr+Y8oLIg==}
+    engines: {node: '>=6'}
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
@@ -10391,7 +10403,7 @@ snapshots:
     dependencies:
       eslint: 9.31.0(jiti@2.4.2)
 
-  eslint-plugin-better-tailwindcss@3.6.3(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11):
+  eslint-plugin-better-tailwindcss@3.7.0(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11):
     dependencies:
       '@eslint/css-tree': 3.6.1
       enhanced-resolve: 5.18.2
@@ -10402,6 +10414,7 @@ snapshots:
       synckit: 0.11.11
       tailwind-csstree: 0.1.1
       tailwindcss: 4.1.11
+      tsconfig-paths-webpack-plugin: 4.2.0
 
   eslint-plugin-command@3.3.1(eslint@9.31.0(jiti@2.4.2)):
     dependencies:
@@ -13167,6 +13180,8 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
+  strip-bom@3.0.0: {}
+
   strip-final-newline@3.0.0: {}
 
   strip-indent@4.0.0:
@@ -13398,6 +13413,19 @@ snapshots:
   ts-macro@0.2.7:
     dependencies:
       muggle-string: 0.4.1
+
+  tsconfig-paths-webpack-plugin@4.2.0:
+    dependencies:
+      chalk: 4.1.2
+      enhanced-resolve: 5.18.2
+      tapable: 2.2.2
+      tsconfig-paths: 4.2.0
+
+  tsconfig-paths@4.2.0:
+    dependencies:
+      json5: 2.2.3
+      minimist: 1.2.8
+      strip-bom: 3.0.0
 
   tslib@2.8.1: {}
 
