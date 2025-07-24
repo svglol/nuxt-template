@@ -2,6 +2,7 @@ onlyBuiltDependencies:
   - '@parcel/watcher'
   - '@tailwindcss/oxide'
   - esbuild
+  - oxc-resolver
   - simple-git-hooks
   - unrs-resolver
   - vue-demi
