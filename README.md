@@ -1,6 +1,6 @@
-# Nuxt 3 Template
+# Nuxt 4 Template
 
-A simple Nuxt 3 template with a few additions
+A simple Nuxt 4 template with a few additions
 
 - @nuxt/eslint & @antfu/eslint-config
 - Stylelint
