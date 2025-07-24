@@ -5,5 +5,4 @@ export default defineAppConfig({
       neutral: 'zinc',
     },
   },
-  nuxtIcon: {},
 })
