@@ -48,8 +48,8 @@ importers:
         specifier: 9.31.0
         version: 9.31.0(jiti@2.4.2)
       eslint-plugin-better-tailwindcss:
-        specifier: 3.7.0
-        version: 3.7.0(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11)
+        specifier: 3.7.1
+        version: 3.7.1(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11)
       happy-dom:
         specifier: 18.0.1
         version: 18.0.1
@@ -770,8 +770,8 @@ packages:
     resolution: {integrity: sha512-bkOp+iumZCCbt1K1CmWf0R9pM5yKpDv+ZXtvSyQpudrI9kuFLp+bM2WOPXImuD/ceQuaa8f5pj93Y7zyECIGNA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/css-tree@3.6.1':
-    resolution: {integrity: sha512-5DIsBME23tUQD5zHD+T38lC2DG4jB8x8JRa+yDncLne2TIZA0VuCpcSazOX1EC+sM/q8w24qeevXfmfsIxAeqA==}
+  '@eslint/css-tree@3.6.2':
+    resolution: {integrity: sha512-ttB4VQguJdWxPVfX/6xB0ugWVeTe6I3nv9izeR+xPcQbtFVb3lhKbcTScWTXZu+OF0PLoLavX7zBiYtLwnlB9w==}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
 
   '@eslint/eslintrc@3.3.1':
@@ -3510,8 +3510,8 @@ packages:
     peerDependencies:
       eslint: '*'
 
-  eslint-plugin-better-tailwindcss@3.7.0:
-    resolution: {integrity: sha512-8xMy1h3v5X9m9r1E6bNc49WOYYcxk6ld+67UJOz9gFZ48BzG8KR430nrGkZbWNhbQTR5i0f2c3mtLgQbVXWZkA==}
+  eslint-plugin-better-tailwindcss@3.7.1:
+    resolution: {integrity: sha512-ROTCf93dM9PcSiXVxXpfN/CK8WTAwjImi//c1DUjBfgRbMyXjkp5JPy/CAf+gJIElzSPkDPvMaFrg08NtXJ1Qg==}
     engines: {node: ^20.11.0 || >=21.2.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -7294,7 +7294,7 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/css-tree@3.6.1':
+  '@eslint/css-tree@3.6.2':
     dependencies:
       mdn-data: 2.21.0
       source-map-js: 1.2.1
@@ -10409,9 +10409,9 @@ snapshots:
     dependencies:
       eslint: 9.31.0(jiti@2.4.2)
 
-  eslint-plugin-better-tailwindcss@3.7.0(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11):
+  eslint-plugin-better-tailwindcss@3.7.1(eslint@9.31.0(jiti@2.4.2))(tailwindcss@4.1.11):
     dependencies:
-      '@eslint/css-tree': 3.6.1
+      '@eslint/css-tree': 3.6.2
       enhanced-resolve: 5.18.2
       eslint: 9.31.0(jiti@2.4.2)
       jiti: 2.4.2
