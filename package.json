@@ -31,7 +31,7 @@
     "eslint": "9.32.0",
     "eslint-plugin-better-tailwindcss": "3.7.3",
     "happy-dom": "18.0.1",
-    "lint-staged": "16.1.2",
+    "lint-staged": "16.1.4",
     "nuxt": "4.0.2",
     "playwright-core": "1.54.2",
     "postcss-html": "1.8.0",
