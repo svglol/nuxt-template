@@ -33,7 +33,7 @@
     "happy-dom": "18.0.1",
     "lint-staged": "16.1.5",
     "nuxt": "4.0.3",
-    "playwright-core": "1.54.2",
+    "playwright-core": "1.55.0",
     "postcss-html": "1.8.0",
     "simple-git-hooks": "2.13.1",
     "stylelint": "16.23.1",
