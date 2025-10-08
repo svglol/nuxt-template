@@ -20,7 +20,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4.1.0
+      - uses: pnpm/action-setup@v4.2.0
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
@@ -43,7 +43,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4.1.0
+      - uses: pnpm/action-setup@v4.2.0
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
