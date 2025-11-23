@@ -48,8 +48,8 @@ importers:
         specifier: 9.39.1
         version: 9.39.1(jiti@2.6.1)
       eslint-plugin-better-tailwindcss:
-        specifier: 3.7.10
-        version: 3.7.10(eslint@9.39.1(jiti@2.6.1))(tailwindcss@4.1.17)
+        specifier: 3.7.11
+        version: 3.7.11(eslint@9.39.1(jiti@2.6.1))(tailwindcss@4.1.17)
       happy-dom:
         specifier: 18.0.1
         version: 18.0.1
@@ -3234,8 +3234,8 @@ packages:
     peerDependencies:
       eslint: '*'
 
-  eslint-plugin-better-tailwindcss@3.7.10:
-    resolution: {integrity: sha512-a6Hif4A9lPJZwpoMir2WVs1ZL4IK6fzwbZvVhQQchoqqg3BycL+ZGLHGIuqKBqwnZgOC6olwmu0sDzM3uSkEFw==}
+  eslint-plugin-better-tailwindcss@3.7.11:
+    resolution: {integrity: sha512-A2x5UrBoYLfZLMGvXBq/7epVMKNMxCkDRgRO1w/N1yQbFYM0L1yk6qDZV1l6Otrl0hNuBHSKFG3Uw5TDoSGStA==}
     engines: {node: ^20.11.0 || >=21.2.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -9796,7 +9796,7 @@ snapshots:
     dependencies:
       eslint: 9.39.1(jiti@2.6.1)
 
-  eslint-plugin-better-tailwindcss@3.7.10(eslint@9.39.1(jiti@2.6.1))(tailwindcss@4.1.17):
+  eslint-plugin-better-tailwindcss@3.7.11(eslint@9.39.1(jiti@2.6.1))(tailwindcss@4.1.17):
     dependencies:
       '@eslint/css-tree': 3.6.6
       enhanced-resolve: 5.18.3
