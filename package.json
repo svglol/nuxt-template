@@ -34,7 +34,7 @@
     "lint-staged": "16.2.7",
     "nuxt": "4.2.2",
     "playwright-core": "1.57.0",
-    "postcss-html": "1.8.0",
+    "postcss-html": "1.8.1",
     "simple-git-hooks": "2.13.1",
     "stylelint": "16.26.1",
     "stylelint-config-recommended-vue": "1.6.1",
