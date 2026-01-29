@@ -39,7 +39,7 @@
     "stylelint": "16.26.1",
     "stylelint-config-recommended-vue": "1.6.1",
     "stylelint-config-standard": "38.0.0",
-    "vitest": "3.2.4",
+    "vitest": "4.0.18",
     "vue-tsc": "3.2.4"
   },
   "simple-git-hooks": {
