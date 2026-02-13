@@ -20,7 +20,7 @@
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@nuxt/devtools": "2.7.0",
-    "@nuxt/eslint": "1.14.0",
+    "@nuxt/eslint": "1.15.1",
     "@nuxt/fonts": "0.13.0",
     "@nuxt/test-utils": "3.23.0",
     "@nuxt/ui": "3.3.7",
