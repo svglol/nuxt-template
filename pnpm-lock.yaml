@@ -24,8 +24,8 @@ importers:
         specifier: 1.17.0
         version: 1.17.0(@nuxt/schema@4.3.1)(@typescript-eslint/utils@8.71.2(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.44)(confbox@0.3.1)(crossws@0.4.15(srvx@0.11.22))(dotenv@17.4.2)(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(giget@3.3.1)(jiti@2.7.0)(magic-string@1.4.3)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(rollup@4.64.9)(srvx@0.11.22)(typescript@5.9.3)(unplugin@2.3.11)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
       '@nuxt/fonts':
-        specifier: 0.14.0
-        version: 0.14.0(@nuxt/schema@4.3.1)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(jiti@2.7.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
+        specifier: 1.0.1
+        version: 1.0.1(@devframes/agentic@1.2.5)(@nuxt/schema@4.3.1)(cac@7.1.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(jiti@2.7.0)(lightningcss@1.33.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(postcss@8.5.30)(rollup@4.64.9)(srvx@0.11.22)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
       '@nuxt/test-utils':
         specifier: 3.23.0
         version: 3.23.0(@vue/test-utils@2.5.1(@vue/compiler-dom@3.5.44)(@vue/server-renderer@3.5.44)(vue@3.5.44(typescript@5.9.3)))(crossws@0.4.15(srvx@0.11.22))(happy-dom@18.0.1)(magicast@0.5.5)(playwright-core@1.64.1)(typescript@5.9.3)(vitest@3.2.7(@types/debug@4.1.13)(@types/node@26.6.5)(happy-dom@18.0.1)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
@@ -1264,8 +1264,16 @@ packages:
   '@nuxt/fonts@0.11.4':
     resolution: {integrity: sha512-GbLavsC+9FejVwY+KU4/wonJsKhcwOZx/eo4EuV57C4osnF/AtEmev8xqI0DNlebMEhEGZbu1MGwDDDYbeR7Bw==}
 
-  '@nuxt/fonts@0.14.0':
-    resolution: {integrity: sha512-4uXQl9fa5F4ibdgU8zomoOcyMdnwgdem+Pi8JEqeDYI5yPR32Kam6HnuRr47dTb97CstaepAvXPWQUUHMtjsFQ==}
+  '@nuxt/fonts@1.0.1':
+    resolution: {integrity: sha512-rtcRH0R0VdeiYLtzlkZYVjnRGq2nWj6y2La3UhFnLNfX2ag0qcCuqzv3IH0CDnydnKKxcUrFmv2OPgMkG3uTWg==}
+    peerDependencies:
+      lightningcss: ^1.33.0
+      subset-font: ^2.9.0
+    peerDependenciesMeta:
+      lightningcss:
+        optional: true
+      subset-font:
+        optional: true
 
   '@nuxt/icon@1.15.0':
     resolution: {integrity: sha512-kA0rxqr1B601zNJNcOXera8CyYcxUCEcT7dXEC7rwAz71PRCN5emf7G656eKEQgtqrD4JSj6NQqWDgrmFcf/GQ==}
@@ -4228,12 +4236,20 @@ packages:
   flatted@3.4.4:
     resolution: {integrity: sha512-5+ybhBZANEJxaH3X5evAFatUxLfEHSr7n6kYJ+1Qd0mUqr4eu9gIf6GDbWHf8RJijHrjjO8G+la14SlL2SeS1Q==}
 
+  fnv1a-64@0.1.2:
+    resolution: {integrity: sha512-mJbcILTPybAR1jdOwt/lVv8N2cffeJFFP+gVbSAwLEx1ujXH27RpPd8Rokec/KX9c76UYIB6Co+H4lQzxPnJfA==}
+
   fontaine@0.6.0:
     resolution: {integrity: sha512-cfKqzB62GmztJhwJ0YXtzNsmpqKAcFzTqsakJ//5COTzbou90LU7So18U+4D8z+lDXr4uztaAUZBonSoPDcj1w==}
 
-  fontaine@0.8.0:
-    resolution: {integrity: sha512-eek1GbzOdWIj9FyQH/emqW1aEdfC3lYRCHepzwlFCm5T77fBSRSyNRKE6/antF1/B1M+SfJXVRQTY9GAr7lnDg==}
-    engines: {node: '>=18.12.0'}
+  fontaine@1.0.2:
+    resolution: {integrity: sha512-YY/MYPLntxg87jSKZ0C+zrj2Qtl4J66amAnvTEKC/IBIJ0JDYDpOiQxupp6l0I+EFUTQ0Dpf9LejybVKxqo//g==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      postcss: ^8.4.31
+    peerDependenciesMeta:
+      postcss:
+        optional: true
 
   fontkit@2.0.4:
     resolution: {integrity: sha512-syetQadaUEDNdxdugga9CpEYVaQIxOwk7GlwZWWZ19//qW4zE5bknOKeMBDYAASwnpaSHKJITRLMF9m1fp3s6g==}
@@ -4242,12 +4258,24 @@ packages:
     resolution: {integrity: sha512-Wp1zXWPVUPBmfoa3Cqc9ctaKuzKAV6uLstRqlR56kSjplf5uAce+qeyYym7F+PHbGTk+tCEdkCW6RD7DX/gBZw==}
     engines: {node: '>=20'}
 
-  fontless@0.2.1:
-    resolution: {integrity: sha512-mUWZ8w91/mw2KEcZ6gHNoNNmsAq9Wiw2IypIux5lM03nhXm+WSloXGUNuRETNTLqZexMgpt7Aj/v63qqrsWraQ==}
-    engines: {node: '>=18.12.0'}
+  fontless@1.3.3:
+    resolution: {integrity: sha512-MI/XHQCWnAdTOZDrXY71zgZBK9BnX3dLC5VrL5tr+TH1Dq2iO73gJiKhAEqou2ybI3HdEfi+FT2onzKvf6kg+Q==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
+      devframe: ^1.2.0
+      jiti: ^2.6.1
+      lightningcss: ^1.33.0
+      subset-font: ^2.5.0
       vite: '*'
     peerDependenciesMeta:
+      devframe:
+        optional: true
+      jiti:
+        optional: true
+      lightningcss:
+        optional: true
+      subset-font:
+        optional: true
       vite:
         optional: true
 
@@ -5018,6 +5046,9 @@ packages:
 
   magic-regexp@0.10.0:
     resolution: {integrity: sha512-Uly1Bu4lO1hwHUW0CQeSWuRtzCMNO00CmXtS8N6fyvB3B979GOEEeAkiTUDsmbYLAbvpUS/Kt5c4ibosAzVyVg==}
+
+  magic-regexp@0.11.2:
+    resolution: {integrity: sha512-s4i7mq2jJnkB5J1HDX67GmdRoWrgo8tE0cL91bKO+HaquxyR5TiqkjVfLhgS2PXretsN/Gv9kSnRBgQxrLO/Qw==}
 
   magic-string-ast@1.0.3:
     resolution: {integrity: sha512-CvkkH1i81zl7mmb94DsRiFeG9V2fR2JeuK8yDgS8oiZSFa++wWLEgZ5ufEOyLHbvSbD1gTRKv9NdX69Rnvr9JA==}
@@ -6547,8 +6578,8 @@ packages:
   unifont@0.4.1:
     resolution: {integrity: sha512-zKSY9qO8svWYns+FGKjyVdLvpGPwqmsCjeJLN1xndMiqxHWBAhoWDMYMG960MxeV48clBmG+fDP59dHY1VoZvg==}
 
-  unifont@0.7.5:
-    resolution: {integrity: sha512-ULe/Cs+ZIsq+dcFofNkhqielCrUJnb5mr+Yc4EBM2VlL+6OZR6+cjtI2mT1bJvRBrVncqHAbLURxmPLcCXzWMg==}
+  unifont@1.0.3:
+    resolution: {integrity: sha512-XGnEwj5sWdCbiBX01mWLSBncS0yMRjnLygau3IfdOlfjMacNIQvTGW4VH7pWBq+gGWArfSef/CensMLjMmIr/A==}
 
   unimport@5.7.0:
     resolution: {integrity: sha512-njnL6sp8lEA8QQbZrt+52p/g4X0rw3bnGGmUcJnt1jeG8+iiqO779aGz0PirCtydAIVcuTBRlJ52F0u46z309Q==}
@@ -7587,15 +7618,24 @@ snapshots:
 
   '@dual-bundle/import-meta-resolve@4.2.1': {}
 
-  '@dxup/nuxt@0.3.2(magicast@0.5.5)':
+  '@dxup/nuxt@0.3.2(@nuxt/schema@4.3.1)(confbox@0.3.1)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(magic-string@0.30.21)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))':
     dependencies:
       '@dxup/unimport': 0.1.2
-      '@nuxt/kit': 4.3.1(magicast@0.5.5)
+      '@nuxt/kit': 4.6.2(@nuxt/schema@4.3.1)(confbox@0.3.1)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(magic-string@0.30.21)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))
       chokidar: 5.0.0
       pathe: 2.0.3
       tinyglobby: 0.2.17
     transitivePeerDependencies:
-      - magicast
+      - '@nuxt/schema'
+      - confbox
+      - dotenv
+      - giget
+      - jiti
+      - magic-string
+      - mlly
+      - oxc-parser
+      - rolldown
+      - unplugin
 
   '@dxup/unimport@0.1.2': {}
 
@@ -8284,23 +8324,6 @@ snapshots:
       - rolldown
       - unplugin
 
-  '@nuxt/devtools-kit@3.4.3(@nuxt/schema@4.3.1)(confbox@0.3.1)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))':
-    dependencies:
-      '@nuxt/kit': 4.6.2(@nuxt/schema@4.3.1)(confbox@0.3.1)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))
-      execa: 8.0.1
-      vite: 7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)
-    transitivePeerDependencies:
-      - '@nuxt/schema'
-      - confbox
-      - dotenv
-      - giget
-      - jiti
-      - magic-string
-      - mlly
-      - oxc-parser
-      - rolldown
-      - unplugin
-
   '@nuxt/devtools-wizard@2.7.0':
     dependencies:
       consola: 3.4.2
@@ -8565,23 +8588,26 @@ snapshots:
       - uploadthing
       - vite
 
-  '@nuxt/fonts@0.14.0(@nuxt/schema@4.3.1)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(jiti@2.7.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))':
+  '@nuxt/fonts@1.0.1(@devframes/agentic@1.2.5)(@nuxt/schema@4.3.1)(cac@7.1.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(jiti@2.7.0)(lightningcss@1.33.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(postcss@8.5.30)(rollup@4.64.9)(srvx@0.11.22)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
-      '@nuxt/devtools-kit': 3.4.3(@nuxt/schema@4.3.1)(confbox@0.3.1)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
       '@nuxt/kit': 4.6.2(@nuxt/schema@4.3.1)(confbox@0.3.1)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(magic-string@1.4.3)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))
-      consola: 3.4.2
       defu: 6.1.7
-      fontless: 0.2.1(db0@0.3.4)(ioredis@5.11.1)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
+      devframe: 1.2.5(@devframes/agentic@1.2.5)(cac@7.1.0)(srvx@0.11.22)
+      exsolve: 1.1.3
+      fontless: 1.3.3(devframe@1.2.5)(esbuild@0.28.2)(jiti@2.7.0)(lightningcss@1.33.0)(postcss@8.5.30)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
       h3: 1.15.11
-      magic-regexp: 0.10.0
+      magic-regexp: 0.11.2(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
+      nypm: 0.6.10
       ofetch: 1.5.1
       pathe: 2.0.3
-      sirv: 3.0.2
+      std-env: 4.3.0
       tinyglobby: 0.2.17
       ufo: 1.6.4
-      unifont: 0.7.5
+      unifont: 1.0.3
       unplugin: 3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
       unstorage: 1.17.6(db0@0.3.4)(ioredis@5.11.1)
+    optionalDependencies:
+      lightningcss: 1.33.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8591,6 +8617,7 @@ snapshots:
       - '@azure/storage-blob'
       - '@capacitor/preferences'
       - '@deno/kv'
+      - '@devframes/agentic'
       - '@farmfe/core'
       - '@netlify/blobs'
       - '@nuxt/schema'
@@ -8603,6 +8630,7 @@ snapshots:
       - '@vercel/kv'
       - aws4fetch
       - bun-types-no-globals
+      - cac
       - confbox
       - db0
       - dotenv
@@ -8613,9 +8641,12 @@ snapshots:
       - jiti
       - magic-string
       - mlly
+      - ocache
       - oxc-parser
+      - postcss
       - rolldown
       - rollup
+      - srvx
       - unloader
       - uploadthing
       - vite
@@ -11920,6 +11951,8 @@ snapshots:
 
   flatted@3.4.4: {}
 
+  fnv1a-64@0.1.2: {}
+
   fontaine@0.6.0:
     dependencies:
       '@capsizecss/metrics': 3.7.0
@@ -11933,15 +11966,25 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  fontaine@0.8.0:
+  fontaine@1.0.2(esbuild@0.28.2)(postcss@8.5.30)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)):
     dependencies:
       '@capsizecss/unpack': 4.0.1
       css-tree: 3.2.1
-      magic-regexp: 0.10.0
-      magic-string: 0.30.21
-      pathe: 2.0.3
-      ufo: 1.6.4
-      unplugin: 2.3.11
+      magic-string: 1.4.3
+      unplugin: 3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
+    optionalDependencies:
+      postcss: 8.5.30
+    transitivePeerDependencies:
+      - '@farmfe/core'
+      - '@rsbuild/core'
+      - '@rspack/core'
+      - bun-types-no-globals
+      - esbuild
+      - rolldown
+      - rollup
+      - unloader
+      - vite
+      - webpack
 
   fontkit@2.0.4:
     dependencies:
@@ -11959,43 +12002,30 @@ snapshots:
     dependencies:
       tiny-inflate: 1.0.3
 
-  fontless@0.2.1(db0@0.3.4)(ioredis@5.11.1)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)):
+  fontless@1.3.3(devframe@1.2.5)(esbuild@0.28.2)(jiti@2.7.0)(lightningcss@1.33.0)(postcss@8.5.30)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)):
     dependencies:
-      consola: 3.4.2
       css-tree: 3.2.1
       defu: 6.1.7
-      esbuild: 0.27.7
-      fontaine: 0.8.0
+      exsolve: 1.1.3
+      fontaine: 1.0.2(esbuild@0.28.2)(postcss@8.5.30)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
+      magic-string: 1.4.3
+      unifont: 1.0.3
+    optionalDependencies:
+      devframe: 1.2.5(@devframes/agentic@1.2.5)(cac@7.1.0)(srvx@0.11.22)
       jiti: 2.7.0
       lightningcss: 1.33.0
-      magic-string: 0.30.21
-      ohash: 2.0.12
-      pathe: 2.0.3
-      ufo: 1.6.4
-      unifont: 0.7.5
-      unstorage: 1.17.6(db0@0.3.4)(ioredis@5.11.1)
-    optionalDependencies:
       vite: 7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)
     transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - db0
-      - idb-keyval
-      - ioredis
-      - uploadthing
+      - '@farmfe/core'
+      - '@rsbuild/core'
+      - '@rspack/core'
+      - bun-types-no-globals
+      - esbuild
+      - postcss
+      - rolldown
+      - rollup
+      - unloader
+      - webpack
 
   foreground-child@3.3.1:
     dependencies:
@@ -12551,6 +12581,7 @@ snapshots:
       lightningcss-linux-x64-musl: 1.33.0
       lightningcss-win32-arm64-msvc: 1.33.0
       lightningcss-win32-x64-msvc: 1.33.0
+    optional: true
 
   lilconfig@3.1.4: {}
 
@@ -12666,6 +12697,24 @@ snapshots:
       type-level-regexp: 0.1.17
       ufo: 1.6.4
       unplugin: 2.3.11
+
+  magic-regexp@0.11.2(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)):
+    dependencies:
+      magic-string: 1.4.3
+      regexp-tree: 0.1.27
+      type-level-regexp: 0.1.17
+      unplugin: 3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))
+    transitivePeerDependencies:
+      - '@farmfe/core'
+      - '@rsbuild/core'
+      - '@rspack/core'
+      - bun-types-no-globals
+      - esbuild
+      - rolldown
+      - rollup
+      - unloader
+      - vite
+      - webpack
 
   magic-string-ast@1.0.3:
     dependencies:
@@ -13266,7 +13315,7 @@ snapshots:
 
   nuxt@4.3.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@types/node@26.6.5)(@vue/compiler-sfc@3.5.44)(cac@7.1.0)(commander@14.0.3)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(magicast@0.5.5)(meow@13.2.0)(optionator@0.9.4)(rollup@4.64.9)(srvx@0.11.22)(stylelint@16.26.1(typescript@5.9.3))(terser@5.51.2)(typescript@5.9.3)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))(vue-tsc@3.3.13(typescript@5.9.3))(yaml@2.9.1):
     dependencies:
-      '@dxup/nuxt': 0.3.2(magicast@0.5.5)
+      '@dxup/nuxt': 0.3.2(@nuxt/schema@4.3.1)(confbox@0.3.1)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(magic-string@0.30.21)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))
       '@nuxt/cli': 3.37.0(@nuxt/schema@4.3.1)(cac@7.1.0)(commander@14.0.3)(magicast@0.5.5)
       '@nuxt/devtools': 3.4.3(@nuxt/schema@4.3.1)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(giget@3.3.1)(ioredis@5.11.1)(jiti@2.7.0)(magic-string@0.30.21)(mlly@1.8.2)(oxc-parser@0.112.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2))(unplugin@3.4.0(esbuild@0.28.2)(rollup@4.64.9)(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1)))(vite@7.3.7(@types/node@26.6.5)(jiti@2.7.0)(lightningcss@1.33.0)(terser@5.51.2)(yaml@2.9.1))(vue@3.5.44(typescript@5.9.3))
       '@nuxt/kit': 4.3.1(magicast@0.5.5)
@@ -14647,10 +14696,11 @@ snapshots:
       css-tree: 3.2.1
       ohash: 2.0.12
 
-  unifont@0.7.5:
+  unifont@1.0.3:
     dependencies:
       css-tree: 3.2.1
-      ohash: 2.0.12
+      fnv1a-64: 0.1.2
+      std-env: 4.3.0
       undici: 8.12.2
 
   unimport@5.7.0:
